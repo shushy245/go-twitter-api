@@ -3,4 +3,4 @@ To start, change the personal configuration details in the .env file to fit your
 Automigration is on, so beware if you have existing tables called "tweets" or "users"
 You can turn it off if you want, just look up db.AutoMigrate and comment the line
 
-TODO: Put query validation in middleware, separate duplicate code into more helper functions, use goroutines for stuff such as tweet upload, more validations, find way to avoid using ANY type conversion while looking up user Ids, handle value restrictions on DB level
+TODO: Put query validation in middleware, separate duplicate code into more helper functions, use goroutines for stuff such as tweet upload, more validations, find way to avoid using ANY type conversion while looking up user Ids, handle value restrictions on DB level, separate into more files - a struct folder, a routes folder etc.
